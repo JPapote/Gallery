@@ -1,0 +1,40 @@
+.Gallery{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.list {
+  width: 60%;
+  display: flex;
+  height: 350px;
+  overflow: hidden;
+  border: 1px solid black;
+  scroll-behavior: smooth;
+}
+.btn{
+  align-self: center;
+    outline: none;
+    box-shadow: none;
+  
+}
+.imgGallery{
+  width: 20rem;
+  margin: 0.5rem;
+}
+@media only screen and (max-width: 577px){
+  .CardText{ 
+      width: 80%;
+
+    }
+    .list{
+      width: 100%;
+    }
+  .imgGallery{
+      width: 100%;
+      margin: 0px;
+    }
+}
